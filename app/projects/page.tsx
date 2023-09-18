@@ -1,5 +1,5 @@
-import About from '../components/about';
+import Projects from '../components/projects';
 
 export default function ProjectsPage() {
-  return <About />;
+  return <Projects />;
 }
