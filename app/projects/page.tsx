@@ -28,7 +28,7 @@ export default function ProjectsPage() {
             Link
           </a>
           <p>
-            Capstone project made in collaboration with Los Angeles County District Attorney's
+            Capstone project made in collaboration with Los Angeles County District Attorney&apos;s
             Office. Created an audio redaction tool to help handle hundreds of hours of court
             transcripts. Built using Electron, React, and FFmpeg.
           </p>

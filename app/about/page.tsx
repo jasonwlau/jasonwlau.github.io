@@ -6,7 +6,7 @@ export default function AboutPage() {
       <div>
         <Header />
         <p>
-          Hi! I'm a software engineer based in the Bay Area. I am passionate
+          Hi! I&apos;m a software engineer based in the Bay Area. I am passionate
           across many fields of software engineering from systems programming to
           full-stack development. I love to explore the different fields of
           computer science primarily distributed systems, networking, and
