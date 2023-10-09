@@ -1,6 +1,10 @@
+'use client';
+
 import Image from 'next/image';
+import { useTheme } from 'next-themes';
 
 export default function Header() {
+  const { theme, setTheme } = useTheme();
   return (
     <div className="flex">
       <div className="w-1/2 pt-5">
@@ -47,22 +51,16 @@ export default function Header() {
             </div>
           </div>
 
-          <div className="pb-3 px-3">
-            <div className="h-32">
-              <a
-                href="https://github.com/jasonwlau"
-                className="group px-5 py-4"
-              >
-                <Image
-                  src="/assets/github.svg"
-                  alt="GitHub Logo"
-                  width={32}
-                  height={32}
-                  className="dark:invert"
-                  priority
-                />
-              </a>
-            </div>
+          <div className="pt-5 pl-2">
+            <Image
+              src={theme === 'dark' ? '/assets/moon.svg' : '/assets/sun.svg'}
+              alt="Light/Dark Mode"
+              width={24}
+              height={24}
+              onClick={() => ((theme === 'dark') ? setTheme('light') : setTheme('dark'))}
+              className="dark:invert"
+              priority
+            />
           </div>
         </div>
       </div>

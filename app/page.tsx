@@ -1,9 +1,24 @@
+'use client';
+
 import React from 'react';
 import Image from 'next/image';
+import { useTheme } from 'next-themes';
 
 export default function Home() {
+  const { theme, setTheme } = useTheme();
   return (
     <main className="flex min-h-screen flex-col items-center">
+      <div className="min-w-full flex justify-end p-3">
+        <Image
+          src={theme === 'dark' ? '/assets/moon.svg' : '/assets/sun.svg'}
+          alt="Light/Dark Mode"
+          width={24}
+          height={24}
+          onClick={() => ((theme === 'dark') ? setTheme('light') : setTheme('dark'))}
+          className="dark:invert"
+          priority
+        />
+      </div>
       <div className="flex flex-row items-center justify-between pt-48">
         <h1 className="text-4xl font-extrabold">
           Jason Lau

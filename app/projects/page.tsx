@@ -23,14 +23,14 @@ export default function ProjectsPage() {
           />
           <a
             href="https://github.com/lada-cybercrime/USC-CSCI-401-Capstone-Fall-2021"
-            className="text-cyan-400 font-semibold"
+            className="text-blue-600 font-semibold underline"
           >
             Link
           </a>
           <p>
             Capstone project made in collaboration with Los Angeles County District Attorney&apos;s
             Office. Created an audio redaction tool to help handle hundreds of hours of court
-            transcripts. Built using Electron, React, and FFmpeg.
+            transcripts. Built using Electron, Node.js, React, and FFmpeg.
           </p>
         </div>
         <div className="pb-5">
@@ -43,7 +43,7 @@ export default function ProjectsPage() {
           />
           <a
             href="https://github.com/jasonwlau/eventpro"
-            className="text-cyan-400 font-semibold"
+            className="text-blue-600 font-semibold underline"
           >
             Link
           </a>
@@ -63,7 +63,7 @@ export default function ProjectsPage() {
           />
           <a
             href="https://github.com/jasonwlau/music-rater"
-            className="text-cyan-400 font-semibold"
+            className="text-blue-600 font-semibold underline"
           >
             Link
           </a>
@@ -83,7 +83,7 @@ export default function ProjectsPage() {
           />
           <a
             href="https://github.com/jasonwlau/workout-buddy"
-            className="text-cyan-400 font-semibold"
+            className="text-blue-600 font-semibold underline"
           >
             Link
           </a>
@@ -103,7 +103,7 @@ export default function ProjectsPage() {
           />
           <a
             href="https://github.com/jasonwlau/sustainla"
-            className="text-cyan-400 font-semibold"
+            className="text-blue-600 font-semibold underline"
           >
             Link
           </a>
